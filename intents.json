@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "type2_diabetes",
+         "patterns": ["Tell me something about type 2 diabetes"],
+         "responses": ["Type 2 diabetes is a progressive disease. Will you require insulin? That all depends on individual factors that includes, among many other factors, weight, exercise, genetics, hormones and beta-cells, those cells that produce insulin in your pancreas. Research shows that managing your diabetes early in the disease process can have big payoffs in later years. Joining a support group for people with diabetes can be helpful in keeping you going in your health quest. Following up with your health care team regularly and keeping abreast on the new developments in diabetes management can also benefit you."],
+         "context": [""]
+        },
+        {"tag": "calories",
+         "patterns": ["Tell me something about calories from hard liquor"],
+         "responses": ["To make a long story short: A serving of alcohol is typically not very high in calories, BUT it is metabolized very differently than our food (90 percent in the liver), which can make weight loss tricky. For example, a light beer is roughly 100 calories and so is a handful of nuts. In terms of calories, this is not much at all, but in terms of metabolism, they vary significantly, partly because you have fiber, protein, and fat in the nut and virtually none of these in beer.This is why we can't say a calorie equals a calorie. Think of it this way, an empty calorie food or drink is something you can remove from the diet but still maintain optimal physiological function. Do our bodies need alcohol to survive? No. Candy? No. Soda? No. These are empty calories because they don't have a purpose. Do we need lean protein to survive? Yes. Fresh produce? Yes. You get the idea..."],
+         "context": [""]
+        },
+       {"tag": "vegan_diet",
+        "patterns": ["Can a vegan diet cause lupus patient to go into remission?"],
+        "responses": ["The scientific evidence on the role of diet in autoimmune diseases such as lupus is just becoming available. I am a believer that a plant-based diet is helpful in promoting overall health and decreasing the chemicals that cause inflammation. I advocate a -based diet along with a very low-fat diet. You have to recall that French fries are vegan but they are not exactly healthy. I think that exercise and healthy diet are extremely important for everyone, but more so for those with autoimmune diseases."],
+        "context": [""]
+       },
+       {"tag": "yogurt",
+        "patterns": ["Is Greek yogurt healthier than regular yogurt?", "Greek yogurt and regular yogurt?"],
+        "responses": ["The scientific evidence on the role of diet in autoimmune diseases such as lupus is just becoming available. I am a believer that a plant-based diet is helpful in promoting overall health and decreasing the chemicals that cause inflammation. I advocate a -based diet along with a very low-fat diet. You have to recall that French fries are vegan but they are not exactly healthy. I think that exercise and healthy diet are extremely important for everyone, but more so for those with autoimmune diseases."],
+        "context": [""]
+       },
+       {"tag": "vegetarian",
+        "patterns": ["I am trying to eat a vegetarian diet. How can I get the protein that I need?", "how vegetarian get protein?"],
+        "responses": ["It is good that you are concerned because many people who start eating a vegetarian diet simply eliminate the meat from their diet and compromise their protein needs. Rich protein sources include lentils, legumes, nuts/seeds, soy products (such as tofu or soy meat substitutes), eggs, and dairy products. You need to be intentional about consuming these foods several times throughout the day."],
+        "context": [""]
+       },
+       {"tag": "breast_cancer",
+        "patterns": ["Is breast cancer inherited?"],
+        "responses": ["Most women who get breast cancer do not have any family history of breast cancer. Just because a family member had breast cancer does not always mean that you will get breast cancer. We do know that there are some genes associated with a known increased risk of breast cancer. These are BRCA 1 (breast cancer 1, early onset human tumor suppressor gene) and BRCA 2 (breast cancer type 2, susceptibility protein). Only 10 percent of women with breast cancer have these inherited genes. These women usually get breast cancer at a young age and have multiple family members with breast or ovarian cancer."],
+        "context": [""]
+       },
+       {"tag": "stroke",
+       "patterns": ["Is there a genetic factor to strokes?"],
+       "responses": ["There are some people that are born with certain genes that predispose them to stroke. One such condition would be CADASIL (cerebral autosomal-dominant arteriopathy with subcortical infarcts and leukoencephalopathy). If you are interested, I am sure you can learn more about this condition from the Web. Some people are born with genetic conditions that predispose them to clotting. This in turn may increase their stroke risk. Finally, if you have a strong family history of high blood pressure, diabetes, high cholesterol or any of the major modifiable risk factors for stroke, you may also be at higher risk because of this. However, these particular conditions are very much treatable and you certainly can do something about them to lower your risk."],
+       "context": [""]
+      },
+      {"tag": "eating_plan",
+       "patterns": ["Can you recommend any tools that will help me stay motivated to stay on my eating plan?"],
+       "responses": ["Continue to remind yourself of the benefits of reaching your goal. It may be looking good in those summer shorts or having more energy to keep up with your kids. Put up notes to remind yourself if necessary.", "Weigh yourself weekly and give yourself a NON-FOOD reward. It doesn’t have to be expensive. It could be giving yourself a candle-lit bubble bath or a back-rub from your spouse. Get creative.", "Continue to focus on health and wellness. Read books and articles that are motivating. Also, avoid environmental triggers that stir up your cravings such as watching food-related TV shows, meeting your friends at your favorite pastry shop, etc.", "Keep graphic records of your accomplishments. Watching that line on your weight graph go down or the line on your exercise graph go up can be quite motivating!"],
+       "context": [""]
+      },
+      {"tag": "cyberbullying",
+      "patterns": ["What advice for cyberbullying", "Tell me something more about cyberbullying"],
+      "responses": ["Parent and child discussions are key!", "Make sure he is comfortable in coming to you or a trusted adult, such as a teacher, if he is being bullied or feels threatened.", "Before he is permitted access to social media sites, such as Twitter or Facebook, know how to block inappropriate messages and behavior. You should know how to access blocking capabilities and have access to controls on his cell phone. If he does receive a threatening message, be sure he does not respond."],
+      "context": [""]
+      }
+   ]
+}
