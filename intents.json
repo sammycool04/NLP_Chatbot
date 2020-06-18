@@ -1,12 +1,17 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "responses": ["Hello Sam, thanks for asking", "Good to see you again, Sam", "Hi Sam, how can I help?"],
          "context": [""]
         },
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
          "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "shutup",
+         "patterns": ["Shutup", "get out", "You are not making sense"],
+         "responses": ["Ok, I will leave :/", "Ok I will leave :( Have a nice day", "I don't wanna talk to you, too!"],
          "context": [""]
         },
         {"tag": "thanks",
@@ -68,6 +73,26 @@
       "patterns": ["What advice for cyberbullying", "Tell me something more about cyberbullying"],
       "responses": ["Parent and child discussions are key!", "Make sure he is comfortable in coming to you or a trusted adult, such as a teacher, if he is being bullied or feels threatened.", "Before he is permitted access to social media sites, such as Twitter or Facebook, know how to block inappropriate messages and behavior. You should know how to access blocking capabilities and have access to controls on his cell phone. If he does receive a threatening message, be sure he does not respond."],
       "context": [""]
-      }
+     },
+     {"tag": "hearing_aids",
+     "patterns": ["How often to replace hearing aids"],
+     "responses": ["The typical life of hearing aids is usually about five to seven years. When you are first fitted with hearing aids, talk with your audiologist about choosing devices that will give you ‘room to grow’ in case your hearing loss progresses. Oftentimes, programming changes can be made to your current devices to accommodate changes in your hearing loss."],
+     "context": [""]
+    },
+    {"tag": "kidney_stones",
+    "patterns": ["Can drinking water with lemon prevent kidney stones? "],
+    "responses": ["One-half cup of lemon juice concentrate added to drinking water over the course of the day is a preventive therapy for calcium oxalate stone formation. As for city water, it is safe to drink but the concern is with water softened using a sodium ion exchange. Softened water should not be used for cooking, drinking, or for ice dispensers."],
+    "context": [""]
+    },
+    {"tag": "day_care",
+    "patterns": ["Does day care have an effect on children developing allergies or asthma?", "Does preschool have an effect on children developing allergies or asthma?"],
+    "responses": ["Yes, it does. Most children in day care or preschool settings experience more viral respiratory infections in the first two to three years of life than children who are at home with no siblings.", "If you control for genetic background and environmental triggers, however, the children who attended day care/preschool had a lower incidence of asthma later in life."],
+    "context": [""]
+    },
+    {"tag": "childhood_earaches",
+    "patterns": ["Do childhood earaches cause hearing loss later in life?"],
+    "responses": ["Recurrent ear infections during childhood can sometimes lead to chronic hearing loss. If an infection is suspected, the child should be seen by a physician for appropriate treatment."],
+    "context": [""]
+    }
    ]
 }
