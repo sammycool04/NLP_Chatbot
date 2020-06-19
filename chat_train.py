@@ -6,6 +6,10 @@ from nltk.corpus import stopwords
 lemmatizer = WordNetLemmatizer()
 import json
 import pickle
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
 
 import numpy as np
 from keras.models import Sequential
@@ -77,6 +81,18 @@ train_x = list(training[:,0])
 train_y = list(training[:,1])
 print("Training data created")
 
+x_train, x_test, y_train, y_test = train_test_split(train_x, train_y, test_size=0.33, random_state=42)
+#Decision Tree Model
+clf1  = DecisionTreeClassifier()
+clf = clf1.fit(x_train,y_train)
+clf_predict = clf.predict(x_test)
+
+print(clf.score(x_train, y_train))
+print ("cross result========")
+print(accuracy_score(y_test, clf_predict))
+
+
+# Neural Network Model
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
